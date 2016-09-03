@@ -24,7 +24,7 @@ format_axis <- function(plottitle,size=18,colour="black",font = "Arial, sans-ser
 }
 
 ui <- dashboardPage(
-  dashboardHeader(title = "plotdbR"),
+  dashboardHeader(title = "dbplotR"),
   dashboardSidebar(
     br(),
     tagList(
